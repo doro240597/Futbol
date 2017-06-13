@@ -20,7 +20,7 @@ public class Conexion {
         try { 
             Class.forName("oracle.jdbc.OracleDriver");
             conexion=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","CAMPEONATO","CAMPEONATO");
-            JOptionPane.showMessageDialog(null,"Conexion exitosa");
+            //JOptionPane.showMessageDialog(null,"Conexion exitosa");
         } catch (Exception ex) {
             JOptionPane.showMessageDialog(null, ex);
         }
